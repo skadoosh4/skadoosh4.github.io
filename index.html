@@ -7,87 +7,111 @@
     <title>Sidharth Singh</title>
     <link rel="icon" href="path/to/your/icon.png" type="image/png" />
     <style>
-      .section {
-        display: none;
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0; /* Set background color as needed */
       }
 
-      .home {
+      .navbar {
+        border: 3px solid black;
+        background-color: #004d90;
+        text-align: center;
+      }
+
+      .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      .navbar li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      .navbar a {
         display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+
+      .navbar a:hover {
+        background-color: #00274d; /* Set hover background color as needed */
+      }
+
+      .section {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      table {
+        margin: auto;
+        width: 70%;
+        border-collapse: collapse;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
       }
     </style>
   </head>
   <body>
-    <nav>
-      <div class="container">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#teaching">Teaching Involvements</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="resume.html" target="_blank">Resume</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar">
+      <ul>
+        <li>
+          <a href="index.html"><b>Home</b></a>
+        </li>
+        <li>
+          <a href="education.html"><b>Education</b></a>
+        </li>
+        <li>
+          <a href="projects.html"><b>Projects</b></a>
+        </li>
+      </ul>
+    </div>
 
     <section id="home" class="section home">
-      <h1 align="center">Sidharth Singh</h1>
-      <br />
-      <h2 align="center">About Me</h2>
-      <table align="center" width="45%">
-        <tbody>
-          <tr>
-            <td>
-              <font color="black">
-                Hi, I'm Sidharth Singh, an aspiring Computer Scientist with a
-                passion for coding and problem-solving.
-                <br /><br />
-                I believe in leveraging technology to create meaningful
-                solutions. Excited to contribute my skills and knowledge to make
-                a positive impact in the world of computing.
-              </font>
-            </td>
-          </tr>
-        </tbody>
+      <h1>Sidharth Singh</h1>
+      <h2>About Me</h2>
+      <table>
+        <tr>
+          <td>
+            <font color="black">
+              Hi, I'm Sidharth Singh, an aspiring Computer Scientist with a
+              passion for coding and problem-solving.
+              <br /><br />
+              I believe in leveraging technology to create meaningful solutions.
+              Excited to contribute my skills and knowledge to make a positive
+              impact in the world of computing.
+            </font>
+          </td>
+        </tr>
       </table>
-    </section>
-
-    <section id="education" class="section">
-      <div class="container">
-        <table>
-          <!-- Education Entry 1 -->
-          <tr>
-            <td><img src="csula.png" width="150" height="150" /></td>
-            <td>
-              <b>California State University, Los Angeles, USA</b> <br /><br />
-              Master of Science in Computer Science<br />
-              Fall 2022 to Spring 2024<br /><br />
-              GPA: 3.7/4.0
-            </td>
-          </tr>
-
-          <!-- Education Entry 2 -->
-          <tr>
-            <td><img src="kc.png" width="150" height="150" /></td>
-            <td>
-              <b>K.C College of Engineering, Mumbai, India</b> <br /><br />
-              B.Tech in Computer Engineering<br /><br />
-              GPA: 7.77/10
-            </td>
-          </tr>
-        </table>
-      </div>
-    </section>
-
-    <section id="teaching" class="section">
-      <div class="container">
-        <!-- Your teaching involvements content goes here -->
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="container">
-        <!-- Your projects content goes here -->
-      </div>
     </section>
 
     <section id="social" class="section social">
