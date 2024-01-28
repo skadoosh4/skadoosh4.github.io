@@ -10,7 +10,7 @@
       body {
         margin: 0;
         padding: 0;
-        background-color: #f0f0f0;
+        background-color: #f2f2f2;
       }
 
       .navbar {
@@ -57,19 +57,24 @@
         font-size: 24px;
         margin-bottom: 20px;
       }
-
       table {
         margin: auto;
         width: 70%;
         border-collapse: collapse;
-        background-color: white;
+        background-color: #fff;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
       }
 
       td {
         padding: 15px;
         text-align: left;
-        border-bottom: 1px solid #ddd;
+        border-bottom: none;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
       }
 
       img {
@@ -97,6 +102,14 @@
 
     <section id="home" class="section home">
       <h1>Sidharth Singh</h1>
+      <p style="font-size: 30px" align="center">
+        <font color="#1772d0"
+          ><i>
+            "Yesterday I was clever, so I wanted to change the world <br />
+            Today I am wise, so I am changing myself"</i
+          ></font
+        >
+      </p>
       <h2>About Me</h2>
       <table>
         <tr>
@@ -116,7 +129,7 @@
 
     <section id="social" class="section social">
       <div class="container">
-        <h2>Connect with me</h2>
+        <h2>Contact</h2>
         <div class="social-links">
           <a href="https://github.com/skadoosh4" target="_blank">
             <svg
@@ -159,7 +172,5 @@
         </div>
       </div>
     </section>
-
-    <script src="script.js"></script>
   </body>
 </html>

@@ -2,229 +2,87 @@ body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url("matrix.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-nav {
-  background-color: #f8f8f8;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 1em 0;
-  display: flex;
-  justify-content: space-around;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-.home {
-  background-color: #3498db;
-  color: #fff;
+.navbar {
+  border: 3px solid black;
+  background-color: #004d90;
   text-align: center;
-  padding: 5em 0;
 }
 
-.home h1 {
-  font-size: 3em;
-  margin-bottom: 0.5em;
-  font-weight: bold;
-}
-
-.quote {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-.about-me {
-  margin-top: 2em;
-}
-
-.section {
-  padding: 4em 0;
-}
-
-.social {
-  background-color: #f8f8f8;
-  text-align: center;
-  padding: 3em 0;
-}
-
-.social h2 {
-  font-size: 2em;
-  margin-bottom: 1em;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-}
-
-.social-links a {
-  margin: 0 1em;
-}
-
-/* Add more styling as needed */
-body {
-  font-family: "Arial", sans-serif;
+.navbar ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
-nav {
-  background-color: #f8f8f8;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 1em 0;
-  display: flex;
-  justify-content: space-around;
-}
-
-nav a {
+.navbar a {
+  display: block;
+  padding: 10px 20px;
   text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-.home {
-  background-color: #3498db;
-  color: #fff;
-  text-align: center;
-  padding: 5em 0;
-}
-
-.home h1 {
-  font-size: 3em;
-  margin-bottom: 0.5em;
+  color: white;
   font-weight: bold;
 }
 
-.quote {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-.about-me {
-  margin-top: 2em;
+.navbar a:hover {
+  background-color: #00274d;
 }
 
 .section {
-  padding: 4em 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+table {
+  margin: auto;
+  width: 70%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: none;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
 .social {
-  background-color: #f8f8f8;
-  text-align: center;
-  padding: 3em 0;
-}
-
-.social h2 {
-  font-size: 2em;
-  margin-bottom: 1em;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-}
-
-.social-links a {
-  margin: 0 1em;
-}
-
-/* Add more styling as needed */
-body {
-  font-family: "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-nav {
-  background-color: #f8f8f8;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 1em 0;
-  display: flex;
-  justify-content: space-around;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-.home {
-  background-color: #3498db;
-  color: #fff;
-  text-align: center;
-  padding: 5em 0;
-}
-
-.home h1 {
-  font-size: 3em;
-  margin-bottom: 0.5em;
-  font-weight: bold;
-}
-
-.quote {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-.about-me {
-  margin-top: 2em;
-}
-
-.section {
-  padding: 4em 0;
-}
-
-.social {
-  background-color: #f8f8f8;
+  background-color: #f2f2f2;
   text-align: center;
   padding: 3em 0;
 }
@@ -247,4 +105,3 @@ nav a {
 .social-links a:hover {
   color: #3498db;
 }
-/* Add more styling as needed */
