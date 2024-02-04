@@ -2,6 +2,15 @@ body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
+  height: 100%;
+  background-image: url("bg.jpg");
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(8px);
+  background-position: center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white; /* Set the default text color to white */
 }
 
 .navbar {
@@ -39,26 +48,22 @@ body {
   margin-top: 20px;
 }
 
-h1 {
-  font-size: 36px;
-  color: white;
-  margin-bottom: 10px;
-}
-
+h1,
 h2 {
   font-size: 24px;
-  color: white;
   margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
 table {
   margin: auto;
   width: 70%;
   border-collapse: collapse;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  overflow: hidden;
 }
 
 td {
@@ -67,21 +72,17 @@ td {
   border-bottom: none;
 }
 
-tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
 img {
   max-width: 100%;
+  max-height: 150px; /* Set the maximum height as per your requirement */
   height: auto;
   display: block;
   margin: auto;
 }
 
 .social {
-  background-color: #f2f2f2;
   text-align: center;
-  padding: 3em 0;
+  padding: 1em 0;
 }
 
 .social h2 {
@@ -91,11 +92,11 @@ img {
 
 .social-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .social-links a {
-  margin: 0 1em;
+  margin: 0 10px;
   transition: color 0.3s ease;
 }
 
