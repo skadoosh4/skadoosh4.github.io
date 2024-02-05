@@ -3,14 +3,14 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-image: url("bg.jpg");
+  background-image: url("./icons/bg.jpeg");
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(8px);
   background-position: center/cover;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  color: white; /* Set the default text color to white */
+  color: white;
 }
 
 .navbar {
@@ -74,7 +74,7 @@ td {
 
 img {
   max-width: 100%;
-  max-height: 150px; /* Set the maximum height as per your requirement */
+  max-height: 150px;
   height: auto;
   display: block;
   margin: auto;
@@ -102,4 +102,9 @@ img {
 
 .social-links a:hover {
   color: #3498db;
+}
+
+.social-links img {
+  max-width: 60px;
+  height: auto;
 }
